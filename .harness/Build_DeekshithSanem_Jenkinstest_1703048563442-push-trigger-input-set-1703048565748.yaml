@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_DeekshithSanem_Jenkinstest_1703048563442-push-trigger-input-set
+  identifier: Build_DeekshithSanem_Jenkinstest_1703048563442pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: project_3
+  pipeline:
+    identifier: Build_DeekshithSanem_Jenkinstest_1703048563442
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
