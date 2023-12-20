@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_DeekshithSanem_Jenkinstest_1703045905113-pr-trigger-input-set
+  identifier: Build_DeekshithSanem_Jenkinstest_1703045905113prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: parameter
+  pipeline:
+    identifier: Build_DeekshithSanem_Jenkinstest_1703045905113
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
