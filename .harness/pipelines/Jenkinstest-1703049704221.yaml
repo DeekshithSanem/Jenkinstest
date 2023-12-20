@@ -58,5 +58,5 @@ pipeline:
                   name: Run_1
                   identifier: Run_1
                   spec:
-                    shell: Sh
-                    command: sh 'python3 two.py -f abc.csv'
+                    shell: Python
+                    command: python two.py
